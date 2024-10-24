@@ -1,0 +1,74 @@
+/* skills.css */
+
+#skillsHeader {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4ch;
+    padding-left: 5%;
+    margin-top: 10vh;
+    color: aliceblue;
+}
+
+#my-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 10% 5vh 5%;
+    gap: 3vh;
+    /* width: 100%; */
+}
+
+#my-skills img{
+    width: 10vh;
+    height: 10vh;
+    /* border-radius: 10px; */
+    margin-left: 2%;
+    /* background-color: blueviolet; */
+}
+
+@media (max-width: 1050px) {
+    #my-skills img{
+        width: 10vw;
+        height: 10vw;
+        border-radius: 10px;
+        margin-left: 0.5%;
+    }
+}
+
+#my-skills img:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+#my-skills span {
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-top: 3vh; */
+    color: aliceblue;
+}
+
+.frame-and-back {
+    display: flex;
+    flex-direction: row;
+    background-color: #0b0b0b; 
+    gap: 10%;
+}
+
+.frame-and-back div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color:#0b0b0b;
+}
+
+.spacing {
+    gap: 5%;
+    border: 1.5px dashed rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    padding: 2vh 0% 2vh 0%;
+    background-color: #0b0b0b;
+}
