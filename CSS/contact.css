@@ -16,7 +16,8 @@
 .contact-text-2 {
     font-size: 2ch;
     margin-bottom: 2vh;
-    color: aliceblue;
+    color: white;
+
 }
 .name-email-container {
     display: flex;
